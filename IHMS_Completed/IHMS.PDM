@@ -1,0 +1,144 @@
+[Root]
+Most Recent Package=Standard Setup Package IHMS
+
+
+[Package|Standard Setup Package IHMS|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator\Desktop\project IHMS distributable\Install
+
+[Package|Standard Setup Package IHMS|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package|Standard Setup Package IHMS|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package IHMS|Files Found]
+
+[Package|Standard Setup Package IHMS|Files Released]
+
+[Package|Standard Setup Package IHMS|Missing Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\MSEXCH35.DLL=
+
+[Package|Standard Setup Package IHMS|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package IHMS|Files Added]
+C:\Documents and Settings\Administrator\My Documents\My eBooks\IHMS_Completed\IHMS_Completed.zip=
+C:\Documents and Settings\Administrator\My Documents\My eBooks\IHMS_Completed\IHMS_97.mdb=
+
+[Package|Standard Setup Package IHMS|Files Removed]
+c:\documents and settings\administrator\my documents\my ebooks\ihms_completed\ihms_completed.zip=
+
+[Package|Standard Setup Package IHMS|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\project IHMS distributable\IHMS1.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\MSEXCL35.DLL=Yes
+C:\WINDOWS\system32\MSEXCH35.DLL=Yes
+C:\WINDOWS\system32\MSLTUS35.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSPDOX35.DLL=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Documents and Settings\Administrator\My Documents\My eBooks\IHMS_Completed\IHMS_Completed.zip=No
+C:\Documents and Settings\Administrator\My Documents\My eBooks\IHMS_Completed\IHMS_97.mdb=Yes
+
+[Package|Standard Setup Package IHMS|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package IHMS|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package IHMS|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\project IHMS distributable\IHMS1.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\Administrator\My Documents\My eBooks\IHMS_Completed\IHMS_97.mdb=$(AppPath)
+
+[Package|Standard Setup Package IHMS|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\project IHMS distributable\IHMS1.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\Administrator\My Documents\My eBooks\IHMS_Completed\IHMS_97.mdb=No
+
+[Package|Standard Setup Package IHMS|Distribution]
+Type=single
+Size=
+Title=Intelligent Hospital Management System
+
+[Package|Standard Setup Package IHMS|IconGroups]
+Group0=Y-Net Systems Inc.
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package IHMS|Y-Net Systems Inc.]
+Icon1=IHMS1.exe
+Title1=Intelligent Hospital Management System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package IHMS|Package]
+PackageFolder=C:\Documents and Settings\Administrator\Desktop\project IHMS distributable\Install
+ProjectFolder=C:\Documents and Settings\Administrator\My Documents\My eBooks\IHMS_Completed
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator\Desktop\project IHMS distributable\Install\setup.exe
+File2=C:\Documents and Settings\Administrator\Desktop\project IHMS distributable\Install\Setup.Lst
+File3=C:\Documents and Settings\Administrator\Desktop\project IHMS distributable\Install\IHMS1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
